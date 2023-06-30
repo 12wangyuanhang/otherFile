@@ -1,0 +1,2 @@
+<!--newP/newp.wxml.wxml-->
+<canvas canvas-id="lineCanvas" disable-scroll="true" class="canvas"></canvas>

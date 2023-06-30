@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.bootcss.com/qs/6.7.0/qs.min.js"></script>
+    <style>
+        .col {
+            background-color: cadetblue;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- <div class="container">
+        <div class="scroll-box">
+
+        </div>
+    </div> -->
+    <button class="col">颜色</button>
+</body>
+<script>
+      // 获取url参数
+    function getRequest(name) {
+        return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.href) || [, ""])[1].replace(/\+/g, '%20')) || null
+    }
+    if(getRequest('ui') == 'zui'){
+        console.log(11111)
+        let style = document.createElement('link');
+        style.type = 'text/css';
+        style.rel = 'stylesheet';
+        style.href = './sty.css'
+        var head = document.head || document.getElementsByTagName('head')[0];
+        head.appendChild(style)
+    }
+    if(getRequest('theme') == 'darkMode'){
+        console.log(2222)
+        let link = document.createElement('link');
+        let date = new Date().getTime();
+        link.type = 'text/css';
+        link.rel = 'stylesheet';
+        link.setAttribute('href', './dark_mode.css?r='+date)
+        var head = document.head || document.getElementsByTagName('head')[0];
+        head.appendChild(link)
+    }
+    // var qs = Qs;
+    // console.log(qs);
+    // let bb  = qs.stringify({
+    //     a:{
+    //         b:2
+    //     }
+    // })
+    // console.log(bb);
+
+    // function getA(){
+    //     this.arg = [...arguments]
+    //     console.log(this.arg)
+    // }
+    // getA(123,34455)
+    // const scrollBox = document.getElementsByClassName('scroll-box')[0];
+    // for(let i =0; i<5; i++) {
+    //     const div = document.createElement('div');
+    //     div.innerText = i;
+    //     scrollBox.appendChild(div)
+    // }
+    // function handleScroll(e){
+    //     console.log(e,1234)
+    //     // 代码块
+    // }
+    // if(scrollBox.scrollHeight > 75){
+    //     scrollBox.addEventListener('scroll',handleScroll);
+    // }
+    
+
+</script>
+</html>

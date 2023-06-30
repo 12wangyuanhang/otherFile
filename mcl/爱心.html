@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>动态爱心</title>
+    <style type="text/css">
+        #love {
+            width: 100px;
+            height: 100px;
+            position: relative;
+            margin: 100px auto;
+        }
+        #love>div {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: #f00;
+            -webkit-transform: rotate(45deg);
+            -moz-transform: rotate(45deg);
+            -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+        }
+        #love>div:before {
+            content: "";
+            width: 50px;
+            height: 80px;
+            position: absolute;
+            top: -15px;
+            left: 0;
+            border-radius: 50%;
+            background-color: #f00;
+            -webkit-transform: rotate(-45deg);
+            -moz-transform: rotate(-45deg);
+            -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+        }
+        #love>div:after {
+            content: "";
+            width: 50px;
+            height: 80px;
+            position: absolute;
+            top: -15px;
+            right: 0;
+            border-radius: 50%;
+            background-color: #f00;
+            -webkit-transform: rotate(45deg);
+            -moz-transform: rotate(45deg);
+            -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+        }
+    </style>
+</head>
+<body>
+    <div id="love">
+        <div></div>
+    </div>
+    <script type="text/javascript">
+        var love = document.getElementById('love');
+        var angle = 0;
+        setInterval(function(){
+            angle+=3;
+            love.style.transform = 'rotate('+angle+'deg)';
+        },50);
+    </script>
+</body>
+</html>

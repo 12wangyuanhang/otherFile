@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<input type="button" value='去百度 获取天气预报'>
+	<table id='weather'></table>
+</body>
+</html>
+
+<!-- <script type="text/javascript" src='../js/template-native.js'></script> -->
+
+<!-- <script type="text/template" id='template'>
+	<%for(var i=0;i<weather_data.length;i++) {%>
+		<tr>
+			<td><%=weather_data[i].date%></td>
+			<td><img src="<%=weather_data[i].dayPictureUrl%>" alt=""></td>
+			<td><img src="<%=weather_data[i].nightPictureUrl%>" alt=""></td>
+			<td><%=weather_data[i].temperature%></td>
+			<td><%=weather_data[i].weather%></td>
+			<td><%=weather_data[i].wind%></td>
+		</tr>
+	<% } %>
+</script> -->
+<!-- <script type="text/template" id='template'>
+
+	<%for(var i=0;i<forecast.length;i++) {%>
+		<tr>
+			<td><%=forecast[i].date%></td>
+			<td><%=forecast[i].high%></td>
+			<td><%=forecast[i].fengli%></td>
+			<td><%=forecast[i].low%></td>
+			<td><%=forecast[i].fengxiang%></td>
+			<td><%=forecast[i].type%></td>
+		</tr>
+	<% } %>
+</script> -->
+
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript">
+	$("input").click(function () {
+		$.ajax({
+			url:"http://wthrcdn.etouch.cn/weather_mini?city=北京",
+		   //dataType:'json',
+			type:"get",
+			success:function(data){
+				console.log("success");
+				console.log(data);
+				// 读取对象
+				var weatherResults = JSON.parse(data).data;
+				// console.log(weatherResults);
+				// 读取模板
+				// var str = template('template',weatherResults);
+				console.log(str);
+				
+				// 添加到界面上
+				$("#weather").append(str);
+			}
+			
+		})
+	})
+</script>

@@ -1,0 +1,1006 @@
+2023-02-03 15:30:58 I/main: Starting mirai-console...
+2023-02-03 15:30:58 I/main: 
+
+==================================[ Mirai consosle 2.13.4 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-02-03 15:30:58 I/main: Backend: version 2.13.4, built on 2023-01-21 21:19:40.
+2023-02-03 15:30:58 I/main: Frontend Terminal: version 2.13.4, provided by Mamoe Technologies
+2023-02-03 15:30:58 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-02-03 15:30:59 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-02-03 15:30:59 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-02-03 15:30:59 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-02-03 15:30:59 I/plugin: Successfully loaded plugin mirai-api-http v2.7.1
+2023-02-03 15:30:59 I/net.mamoe.mirai-login-solver-selenium: Loading mirai-login-solver-selenium v1.0-dev-12
+2023-02-03 15:30:59 I/WindowHelperJvm: Mirai 正在使用桌面环境. 如遇到验证码将会弹出对话框. 可添加 JVM 属性 `mirai.no-desktop` 以关闭.
+2023-02-03 15:30:59 I/WindowHelperJvm: Mirai is using desktop. Captcha will be thrown by window popup. You can add `mirai.no-desktop` to JVM properties (-Dmirai.no-desktop) to disable it.
+2023-02-03 15:31:00 I/stdout: Line:     ProgId    REG_SZ    ChromeHTML, b64:ICAgIFByb2dJZCAgICBSRUdfU1ogICAgQ2hyb21lSFRNTA==
+2023-02-03 15:31:00 I/stdout: List: [, ProgId, REG_SZ, ChromeHTML]
+2023-02-03 15:31:07 I/stdout: Line:     name    REG_SZ    Google Chrome, b64:ICAgIG5hbWUgICAgUkVHX1NaICAgIEdvb2dsZSBDaHJvbWU=
+2023-02-03 15:31:07 I/stdout: List: [, name, REG_SZ, Google Chrome]
+2023-02-03 15:31:07 I/stdout: Line:     pv    REG_SZ    109.0.5414.120, b64:ICAgIHB2ICAgIFJFR19TWiAgICAxMDkuMC41NDE0LjEyMA==
+2023-02-03 15:31:07 I/stdout: List: [, pv, REG_SZ, 109.0.5414.120]
+2023-02-03 15:31:07 I/stdout: [2023-02-03 15:31:07 MxLib Selenium - Chrome] Running on 中国-大陆
+2023-02-03 15:31:07 I/stdout: [2023-02-03 15:31:07 MxLib Selenium - Chrome] Using taoboo mirror default
+2023-02-03 15:31:07 I/stdout: [2023-02-03 15:31:07 MxLib Selenium - Chrome] MxLib will download chrome driver from http://npm.taobao.org/mirrors/chromedriver/
+2023-02-03 15:31:07 I/stdout: [2023-02-03 15:31:07 MxLib Selenium - Chrome] Change it with `-Dmxlib.selenium.chrome.mirror=.....` vm option
+2023-02-03 15:31:07 I/stdout: [2023-02-03 15:31:07 MxLib Selenium - Chrome] Or disable it with `-Dmxlib.selenium.chrome.no-mirror`
+2023-02-03 15:31:07 I/plugin: Successfully loaded plugin net.mamoe.mirai-login-solver-selenium v1.0-dev-12
+2023-02-03 15:31:07 I/plugin: Successfully loaded plugin MCL Addon v2.1.1
+2023-02-03 15:31:08 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-02-03 15:31:08 W/mirai-api-http: USING INITIAL KEY, please edit the key
+2023-02-03 15:31:08 I/Mirai HTTP API: ********************************************************
+2023-02-03 15:31:08 W/stderr: [DefaultDispatcher-worker-1] INFO MahKtorAdapter[http,ws] - Autoreload is disabled because the development mode is off.
+2023-02-03 15:31:08 W/stderr: [DefaultDispatcher-worker-1] INFO MahKtorAdapter[http,ws] - Application started in 0.258 seconds.
+2023-02-03 15:31:08 W/stderr: [DefaultDispatcher-worker-6] INFO MahKtorAdapter[http,ws] - Responding at http://0.0.0.0:7777
+2023-02-03 15:31:08 I/http adapter: >>> [http adapter] is listening at http://0.0.0.0:7777
+2023-02-03 15:31:08 I/ws adapter: >>> [ws adapter] is listening at ws://0.0.0.0:7777
+2023-02-03 15:31:08 I/Mirai HTTP API: Http api server is running out of verify mode
+2023-02-03 15:31:08 I/Mirai HTTP API: adaptors: [http,ws]
+2023-02-03 15:31:08 I/Mirai HTTP API: ********************************************************
+2023-02-03 15:31:08 I/MCL Addon: iTXTech MCL Version: 2.1.2-61c8bd8
+2023-02-03 15:31:08 W/MCL Addon: iTXTech Soyuz 未安装，Soyuz MCL Handler 特性已禁用
+2023-02-03 15:31:08 I/main: 3 plugin(s) enabled.
+2023-02-03 15:31:08 I/main: Auto-login 873482779, protocol: ANDROID_PHONE, heartbeatStrategy: STAT_HB
+2023-02-03 15:31:09 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+2023-02-03 15:31:09 I/Bot.873482779: Calculating type 2 PoW, it can take some time....
+2023-02-03 15:31:09 I/Bot.873482779: Got PoW result, cost: 133 ms
+2023-02-03 15:31:09 W/stderr: [LoginSolverSelenium] Captcha URL: https://ssl.captcha.qq.com/template/wireless_mqq_captcha.html?style=simple&aid=16&uin=873482779&sid=6910009718402234429&cap_cd=dvedZiR-SwYPWp1wubKQ-PcMursWXVIIETC_2uWobnXVWW43bWsfHQ**&clientype=1&apptype=2
+2023-02-03 15:31:10 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-02-03 15:31:10 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-02-03 15:31:10 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-02-03 15:31:12 W/stderr: Starting ChromeDriver 109.0.5414.25 (771113d280dd3dda2fb422a6c805f0eb2b8ee6ed-refs/branch-heads/5414@{#303}) on port 23549
+2023-02-03 15:31:12 W/stderr: Only local connections are allowed.
+2023-02-03 15:31:12 W/stderr: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+2023-02-03 15:31:12 W/stderr: ChromeDriver was started successfully.
+2023-02-03 15:31:15 W/stderr: 2�� 03, 2023 3:31:15 ���� org.openqa.selenium.remote.ProtocolHandshake createSession
+2023-02-03 15:31:15 W/stderr: ��Ϣ: Detected dialect: W3C
+2023-02-03 15:31:15 W/stderr: 2�� 03, 2023 3:31:15 ���� org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+2023-02-03 15:31:15 W/stderr: ����: Unable to find an exact match for CDP version 109, so returning the closest version found: a no-op implementation
+2023-02-03 15:31:15 W/stderr: 2�� 03, 2023 3:31:15 ���� org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+2023-02-03 15:31:15 W/stderr: ��Ϣ: Unable to find CDP implementation matching 109.
+2023-02-03 15:31:15 W/stderr: 2�� 03, 2023 3:31:15 ���� org.openqa.selenium.chromium.ChromiumDriver lambda$new$0
+2023-02-03 15:31:15 W/stderr: ����: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.0.0-alpha-7` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2023-02-03 15:31:20 E/main: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(873482779), code=237, title=安全提醒, message=当前网络不稳定，登录失败。推荐使用常用设备或通过手机号登录。, errorInfo=)
+net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(873482779), code=237, title=安全提醒, message=当前网络不稳定，登录失败。推荐使用常用设备或通过手机号登录。, errorInfo=)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:311)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2023-02-03 15:31:20 I/Bot.873482779: Bot cancelled: Bot closed
+2023-02-03 15:31:20 I/main: mirai-console started successfully.
+2023-02-03 15:36:08 I/main: Starting mirai-console...
+2023-02-03 15:36:08 I/main: 
+
+==================================[ Mirai consosle 2.13.4 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-02-03 15:36:08 I/main: Backend: version 2.13.4, built on 2023-01-21 21:19:40.
+2023-02-03 15:36:08 I/main: Frontend Terminal: version 2.13.4, provided by Mamoe Technologies
+2023-02-03 15:36:08 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-02-03 15:36:08 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-02-03 15:36:08 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-02-03 15:36:08 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-02-03 15:36:09 I/plugin: Successfully loaded plugin mirai-api-http v2.7.1
+2023-02-03 15:36:09 I/net.mamoe.mirai-login-solver-selenium: Loading mirai-login-solver-selenium v1.0-dev-12
+2023-02-03 15:36:09 I/WindowHelperJvm: Mirai 正在使用桌面环境. 如遇到验证码将会弹出对话框. 可添加 JVM 属性 `mirai.no-desktop` 以关闭.
+2023-02-03 15:36:09 I/WindowHelperJvm: Mirai is using desktop. Captcha will be thrown by window popup. You can add `mirai.no-desktop` to JVM properties (-Dmirai.no-desktop) to disable it.
+2023-02-03 15:36:10 I/stdout: Line:     ProgId    REG_SZ    ChromeHTML, b64:ICAgIFByb2dJZCAgICBSRUdfU1ogICAgQ2hyb21lSFRNTA==
+2023-02-03 15:36:10 I/stdout: List: [, ProgId, REG_SZ, ChromeHTML]
+2023-02-03 15:36:19 I/stdout: Line:     name    REG_SZ    Google Chrome, b64:ICAgIG5hbWUgICAgUkVHX1NaICAgIEdvb2dsZSBDaHJvbWU=
+2023-02-03 15:36:19 I/stdout: List: [, name, REG_SZ, Google Chrome]
+2023-02-03 15:36:19 I/stdout: Line:     pv    REG_SZ    109.0.5414.120, b64:ICAgIHB2ICAgIFJFR19TWiAgICAxMDkuMC41NDE0LjEyMA==
+2023-02-03 15:36:19 I/stdout: List: [, pv, REG_SZ, 109.0.5414.120]
+2023-02-03 15:36:19 I/stdout: [2023-02-03 15:36:19 MxLib Selenium - Chrome] Running on 中国-大陆
+2023-02-03 15:36:19 I/stdout: [2023-02-03 15:36:19 MxLib Selenium - Chrome] Using taoboo mirror default
+2023-02-03 15:36:19 I/stdout: [2023-02-03 15:36:19 MxLib Selenium - Chrome] MxLib will download chrome driver from http://npm.taobao.org/mirrors/chromedriver/
+2023-02-03 15:36:19 I/stdout: [2023-02-03 15:36:19 MxLib Selenium - Chrome] Change it with `-Dmxlib.selenium.chrome.mirror=.....` vm option
+2023-02-03 15:36:19 I/stdout: [2023-02-03 15:36:19 MxLib Selenium - Chrome] Or disable it with `-Dmxlib.selenium.chrome.no-mirror`
+2023-02-03 15:36:19 I/plugin: Successfully loaded plugin net.mamoe.mirai-login-solver-selenium v1.0-dev-12
+2023-02-03 15:36:19 I/plugin: Successfully loaded plugin MCL Addon v2.1.1
+2023-02-03 15:36:19 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-02-03 15:36:19 W/mirai-api-http: USING INITIAL KEY, please edit the key
+2023-02-03 15:36:19 I/Mirai HTTP API: ********************************************************
+2023-02-03 15:36:19 W/stderr: [DefaultDispatcher-worker-1] INFO MahKtorAdapter[http,ws] - Autoreload is disabled because the development mode is off.
+2023-02-03 15:36:20 W/stderr: [DefaultDispatcher-worker-1] INFO MahKtorAdapter[http,ws] - Application started in 0.177 seconds.
+2023-02-03 15:36:20 W/stderr: [DefaultDispatcher-worker-3] INFO MahKtorAdapter[http,ws] - Responding at http://0.0.0.0:7777
+2023-02-03 15:36:20 I/http adapter: >>> [http adapter] is listening at http://0.0.0.0:7777
+2023-02-03 15:36:20 I/ws adapter: >>> [ws adapter] is listening at ws://0.0.0.0:7777
+2023-02-03 15:36:20 I/Mirai HTTP API: Http api server is running out of verify mode
+2023-02-03 15:36:20 I/Mirai HTTP API: adaptors: [http,ws]
+2023-02-03 15:36:20 I/Mirai HTTP API: ********************************************************
+2023-02-03 15:36:20 I/MCL Addon: iTXTech MCL Version: 2.1.2-61c8bd8
+2023-02-03 15:36:20 W/MCL Addon: iTXTech Soyuz 未安装，Soyuz MCL Handler 特性已禁用
+2023-02-03 15:36:20 I/main: 3 plugin(s) enabled.
+2023-02-03 15:36:20 I/main: Auto-login 873482779, protocol: ANDROID_PHONE, heartbeatStrategy: STAT_HB
+2023-02-03 15:36:20 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+2023-02-03 15:36:22 I/Bot.873482779: Calculating type 2 PoW, it can take some time....
+2023-02-03 15:36:22 I/Bot.873482779: Got PoW result, cost: 49 ms
+2023-02-03 15:36:22 W/stderr: [LoginSolverSelenium] Captcha URL: https://ssl.captcha.qq.com/template/wireless_mqq_captcha.html?style=simple&aid=16&uin=873482779&sid=6190877849107085686&cap_cd=Juxkm560d0Kigt1SWlL8ytDdEVOIMv_vHahMqcqDD-OaFGYo2WvGnQ**&clientype=1&apptype=2
+2023-02-03 15:36:22 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-02-03 15:36:22 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-02-03 15:36:22 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-02-03 15:36:25 W/stderr: Starting ChromeDriver 109.0.5414.25 (771113d280dd3dda2fb422a6c805f0eb2b8ee6ed-refs/branch-heads/5414@{#303}) on port 4237
+2023-02-03 15:36:25 W/stderr: Only local connections are allowed.
+2023-02-03 15:36:25 W/stderr: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+2023-02-03 15:36:25 W/stderr: ChromeDriver was started successfully.
+2023-02-03 15:36:28 W/stderr: 2�� 03, 2023 3:36:28 ���� org.openqa.selenium.remote.ProtocolHandshake createSession
+2023-02-03 15:36:28 W/stderr: ��Ϣ: Detected dialect: W3C
+2023-02-03 15:36:28 W/stderr: 2�� 03, 2023 3:36:28 ���� org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+2023-02-03 15:36:28 W/stderr: ����: Unable to find an exact match for CDP version 109, so returning the closest version found: a no-op implementation
+2023-02-03 15:36:28 W/stderr: 2�� 03, 2023 3:36:28 ���� org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+2023-02-03 15:36:28 W/stderr: ��Ϣ: Unable to find CDP implementation matching 109.
+2023-02-03 15:36:28 W/stderr: 2�� 03, 2023 3:36:28 ���� org.openqa.selenium.chromium.ChromiumDriver lambda$new$0
+2023-02-03 15:36:28 W/stderr: ����: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.0.0-alpha-7` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2023-02-03 15:36:35 E/main: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(873482779), code=237, title=安全提醒, message=当前网络不稳定，登录失败。推荐使用常用设备或通过手机号登录。, errorInfo=)
+net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(873482779), code=237, title=安全提醒, message=当前网络不稳定，登录失败。推荐使用常用设备或通过手机号登录。, errorInfo=)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:311)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2023-02-03 15:36:35 I/Bot.873482779: Bot cancelled: Bot closed
+2023-02-03 15:36:35 I/main: mirai-console started successfully.
+2023-02-03 15:37:06 I/Bot.872349679: Login successful
+2023-02-03 15:37:06 I/Bot.872349679: Saved account secrets to local cache for fast login.
+2023-02-03 15:37:07 I/Bot.872349679: Login successful.
+2023-02-03 15:37:17 V/Bot.872349679: Event: BotOnlineEvent(bot=Bot(872349679))
+2023-02-03 15:37:17 I/Bot.872349679: Bot login successful.
+2023-02-03 15:37:20 V/Bot.872349679: [Vue前端技术栈(831905542)] 全是BUG(184796878) -> 都不懂源码
+2023-02-03 15:37:23 V/Bot.872349679: [Vue前端技术栈(831905542)] LoseGhost(214092278) -> 这个群里只有我一个人，其他人都是小号，信不信我换个号跟你发这句话
+2023-02-03 15:37:24 V/Bot.872349679: [Vue前端技术栈(831905542)] 全是BUG(184796878) -> [mirai:image:{7C659D43-DA9A-9B1E-6F64-D0CA83C3AF08}.gif, width=308, height=218, size=88602, type=GIF, isEmoji=true]
+2023-02-03 15:37:24 V/Bot.872349679: [Vue前端技术栈(831905542)] 黑丝高中生在公交上被五个大汉轮流布置作业(84574413) -> sese
+2023-02-03 15:37:29 V/Bot.872349679: [Vue前端技术栈(831905542)] 帅哥之父(1181581742) -> sese
+2023-02-03 15:37:30 V/Bot.872349679: Event: BotOfflineEvent.Active(bot=Bot(872349679), cause=null, reconnect=false)
+2023-02-03 15:37:30 I/Bot.872349679: Bot cancelled: Job was cancelled
+2023-02-03 15:38:10 I/main: Starting mirai-console...
+2023-02-03 15:38:10 I/main: 
+
+==================================[ Mirai consosle 2.13.4 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-02-03 15:38:10 I/main: Backend: version 2.13.4, built on 2023-01-21 21:19:40.
+2023-02-03 15:38:10 I/main: Frontend Terminal: version 2.13.4, provided by Mamoe Technologies
+2023-02-03 15:38:10 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-02-03 15:38:10 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-02-03 15:38:10 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-02-03 15:38:10 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-02-03 15:38:11 I/plugin: Successfully loaded plugin mirai-api-http v2.7.1
+2023-02-03 15:38:11 I/net.mamoe.mirai-login-solver-selenium: Loading mirai-login-solver-selenium v1.0-dev-12
+2023-02-03 15:38:11 I/WindowHelperJvm: Mirai 正在使用桌面环境. 如遇到验证码将会弹出对话框. 可添加 JVM 属性 `mirai.no-desktop` 以关闭.
+2023-02-03 15:38:11 I/WindowHelperJvm: Mirai is using desktop. Captcha will be thrown by window popup. You can add `mirai.no-desktop` to JVM properties (-Dmirai.no-desktop) to disable it.
+2023-02-03 15:38:11 I/stdout: Line:     ProgId    REG_SZ    ChromeHTML, b64:ICAgIFByb2dJZCAgICBSRUdfU1ogICAgQ2hyb21lSFRNTA==
+2023-02-03 15:38:11 I/stdout: List: [, ProgId, REG_SZ, ChromeHTML]
+2023-02-03 15:38:19 I/stdout: Line:     name    REG_SZ    Google Chrome, b64:ICAgIG5hbWUgICAgUkVHX1NaICAgIEdvb2dsZSBDaHJvbWU=
+2023-02-03 15:38:19 I/stdout: List: [, name, REG_SZ, Google Chrome]
+2023-02-03 15:38:19 I/stdout: Line:     pv    REG_SZ    109.0.5414.120, b64:ICAgIHB2ICAgIFJFR19TWiAgICAxMDkuMC41NDE0LjEyMA==
+2023-02-03 15:38:19 I/stdout: List: [, pv, REG_SZ, 109.0.5414.120]
+2023-02-03 15:38:19 I/stdout: [2023-02-03 15:38:19 MxLib Selenium - Chrome] Running on 中国-大陆
+2023-02-03 15:38:19 I/stdout: [2023-02-03 15:38:19 MxLib Selenium - Chrome] Using taoboo mirror default
+2023-02-03 15:38:19 I/stdout: [2023-02-03 15:38:19 MxLib Selenium - Chrome] MxLib will download chrome driver from http://npm.taobao.org/mirrors/chromedriver/
+2023-02-03 15:38:19 I/stdout: [2023-02-03 15:38:19 MxLib Selenium - Chrome] Change it with `-Dmxlib.selenium.chrome.mirror=.....` vm option
+2023-02-03 15:38:19 I/stdout: [2023-02-03 15:38:19 MxLib Selenium - Chrome] Or disable it with `-Dmxlib.selenium.chrome.no-mirror`
+2023-02-03 15:38:19 I/plugin: Successfully loaded plugin net.mamoe.mirai-login-solver-selenium v1.0-dev-12
+2023-02-03 15:38:19 I/plugin: Successfully loaded plugin MCL Addon v2.1.1
+2023-02-03 15:38:19 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-02-03 15:38:19 W/mirai-api-http: USING INITIAL KEY, please edit the key
+2023-02-03 15:38:19 I/Mirai HTTP API: ********************************************************
+2023-02-03 15:38:19 W/stderr: [DefaultDispatcher-worker-1] INFO MahKtorAdapter[http,ws] - Autoreload is disabled because the development mode is off.
+2023-02-03 15:38:19 W/stderr: [DefaultDispatcher-worker-1] INFO MahKtorAdapter[http,ws] - Application started in 0.127 seconds.
+2023-02-03 15:38:19 W/stderr: [DefaultDispatcher-worker-4] INFO MahKtorAdapter[http,ws] - Responding at http://0.0.0.0:7777
+2023-02-03 15:38:19 I/http adapter: >>> [http adapter] is listening at http://0.0.0.0:7777
+2023-02-03 15:38:19 I/ws adapter: >>> [ws adapter] is listening at ws://0.0.0.0:7777
+2023-02-03 15:38:19 I/Mirai HTTP API: Http api server is running out of verify mode
+2023-02-03 15:38:19 I/Mirai HTTP API: adaptors: [http,ws]
+2023-02-03 15:38:19 I/Mirai HTTP API: ********************************************************
+2023-02-03 15:38:20 I/MCL Addon: iTXTech MCL Version: 2.1.2-61c8bd8
+2023-02-03 15:38:20 W/MCL Addon: iTXTech Soyuz 未安装，Soyuz MCL Handler 特性已禁用
+2023-02-03 15:38:20 I/main: 3 plugin(s) enabled.
+2023-02-03 15:38:20 I/main: mirai-console started successfully.
+2023-02-03 15:38:56 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+2023-02-03 15:38:57 I/Bot.2545774296: Calculating type 2 PoW, it can take some time....
+2023-02-03 15:38:57 I/Bot.2545774296: Got PoW result, cost: 71 ms
+2023-02-03 15:38:57 W/stderr: [LoginSolverSelenium] Captcha URL: https://ssl.captcha.qq.com/template/wireless_mqq_captcha.html?style=simple&aid=16&uin=2545774296&sid=1563261427611646482&cap_cd=SOo9dZ0RmtwlJuyDqTxqj97EFBbdor7hFIH-BXnU1JN8_0OfRCHdWw**&clientype=1&apptype=2
+2023-02-03 15:38:57 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-02-03 15:38:57 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-02-03 15:38:57 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-02-03 15:38:59 W/stderr: Starting ChromeDriver 109.0.5414.25 (771113d280dd3dda2fb422a6c805f0eb2b8ee6ed-refs/branch-heads/5414@{#303}) on port 31677
+2023-02-03 15:38:59 W/stderr: Only local connections are allowed.
+2023-02-03 15:38:59 W/stderr: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+2023-02-03 15:39:00 W/stderr: ChromeDriver was started successfully.
+2023-02-03 15:39:02 W/stderr: 2�� 03, 2023 3:39:02 ���� org.openqa.selenium.remote.ProtocolHandshake createSession
+2023-02-03 15:39:02 W/stderr: ��Ϣ: Detected dialect: W3C
+2023-02-03 15:39:02 W/stderr: 2�� 03, 2023 3:39:02 ���� org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+2023-02-03 15:39:02 W/stderr: ����: Unable to find an exact match for CDP version 109, so returning the closest version found: a no-op implementation
+2023-02-03 15:39:02 W/stderr: 2�� 03, 2023 3:39:02 ���� org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+2023-02-03 15:39:02 W/stderr: ��Ϣ: Unable to find CDP implementation matching 109.
+2023-02-03 15:39:02 W/stderr: 2�� 03, 2023 3:39:02 ���� org.openqa.selenium.chromium.ChromiumDriver lambda$new$0
+2023-02-03 15:39:02 W/stderr: ����: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.0.0-alpha-7` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2023-02-03 15:41:07 I/Bot.2545774296: Login successful
+2023-02-03 15:41:07 I/Bot.2545774296: Saved account secrets to local cache for fast login.
+2023-02-03 15:41:08 I/Bot.2545774296: Login successful.
+2023-02-03 15:41:08 V/Bot.2545774296: Event: BotOnlineEvent(bot=Bot(2545774296))
+2023-02-03 15:41:08 I/Bot.2545774296: Bot login successful.
+2023-02-03 15:41:57 V/Bot.2545774296: Event: OtherClientOnlineEvent(client=OtherClient(bot=2545774296,deviceName=ISS,platform=WINDOWS), kind=MOBILE_PC_QQ)
+2023-02-03 15:51:27 V/Bot.2545774296: Event: BotJoinGroupEvent.Invite(invitor=NormalMember(872349679))
+2023-02-03 15:51:31 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 1
+2023-02-03 15:51:52 V/Bot.2545774296: [bot测试群(655680846)] 所念皆星河(1052534678) -> 1
+2023-02-03 15:52:12 V/Bot.2545774296: 浑身难受.(872349679) -> 11
+2023-02-03 15:52:12 V/Bot.2545774296: Friend(872349679) <- my name is 李海laoye
+2023-02-03 15:53:25 V/Bot.2545774296: Event: MemberPermissionChangeEvent(member=NormalMember(873482779), origin=ADMINISTRATOR, new=MEMBER)
+2023-02-03 15:53:32 V/Bot.2545774296: Event: BotGroupPermissionChangeEvent(group=Group(655680846), origin=MEMBER, new=ADMINISTRATOR)
+2023-02-03 15:53:47 V/Bot.2545774296: [bot测试群(655680846)][SYNC] <- 112323
+2023-02-03 15:55:03 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@2e43d724
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@2e43d724
+
+2023-02-03 15:55:12 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 1
+2023-02-03 15:55:13 V/Bot.2545774296: Group(655680846) <- hello world!
+2023-02-03 15:57:27 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@42789c57
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@42789c57
+
+2023-02-03 15:57:30 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 2
+2023-02-03 15:59:15 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@286cef06
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@286cef06
+
+2023-02-03 15:59:18 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 2
+2023-02-03 15:59:18 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@62fc3c2f
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@62fc3c2f
+
+2023-02-03 15:59:31 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@32b3db7f
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@32b3db7f
+
+2023-02-03 15:59:34 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@2448afb5
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@2448afb5
+
+2023-02-03 15:59:38 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 2
+2023-02-03 15:59:38 V/Bot.2545774296: Group(655680846) <- hello world!
+2023-02-03 16:00:27 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@229bb1a
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@229bb1a
+
+2023-02-03 16:00:31 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 3
+2023-02-03 16:00:32 V/Bot.2545774296: Group(655680846) <- [mirai:quote:[mirai:source:ids=[2899], internalIds=[-1356583787], from group 872349679 to 655680846 at 1675411232], content=3]hello world!
+2023-02-03 16:00:49 V/Bot.2545774296: [bot测试群(655680846)] 所念皆星河(1052534678) -> 1
+2023-02-03 16:00:50 V/Bot.2545774296: Group(655680846) <- [mirai:quote:[mirai:source:ids=[2901], internalIds=[1607683334], from group 1052534678 to 655680846 at 1675411250], content=1]hello world!
+2023-02-03 16:00:54 V/Bot.2545774296: [bot测试群(655680846)] 所念皆星河(1052534678) -> 2
+2023-02-03 16:00:55 V/Bot.2545774296: Group(655680846) <- [mirai:quote:[mirai:source:ids=[2903], internalIds=[1997642635], from group 1052534678 to 655680846 at 1675411255], content=2]hello world!
+2023-02-03 16:01:00 V/Bot.2545774296: [bot测试群(655680846)] 所念皆星河(1052534678) -> 666
+2023-02-03 16:01:00 V/Bot.2545774296: Group(655680846) <- [mirai:quote:[mirai:source:ids=[2905], internalIds=[1272601686], from group 1052534678 to 655680846 at 1675411260], content=666]hello world!
+2023-02-03 16:01:11 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 换个了号
+2023-02-03 16:01:12 V/Bot.2545774296: Group(655680846) <- [mirai:quote:[mirai:source:ids=[2907], internalIds=[-1905557092], from group 872349679 to 655680846 at 1675411272], content=换个了号]hello world!
+2023-02-03 16:01:17 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 得在弄一下
+2023-02-03 16:01:18 V/Bot.2545774296: Group(655680846) <- [mirai:quote:[mirai:source:ids=[2909], internalIds=[1171771142], from group 872349679 to 655680846 at 1675411278], content=得在弄一下]hello world!
+2023-02-03 16:01:19 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 沃日了
+2023-02-03 16:01:20 V/Bot.2545774296: Group(655680846) <- [mirai:quote:[mirai:source:ids=[2911], internalIds=[-156586023], from group 872349679 to 655680846 at 1675411280], content=沃日了]hello world!
+2023-02-03 16:23:45 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@58279b48
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@58279b48
+
+2023-02-03 16:24:33 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 获取个人信息 13832418560
+2023-02-03 16:24:33 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@6cdb7f97
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@6cdb7f97
+
+2023-02-03 16:26:46 V/Bot.2545774296: [bot测试群(655680846)] 所念皆星河(1052534678) -> ？？？
+2023-02-03 16:26:53 V/Bot.2545774296: [bot测试群(655680846)] 所念皆星河(1052534678) -> 获取我信息干啥啊
+2023-02-03 16:26:56 V/Bot.2545774296: [bot测试群(655680846)] 所念皆星河(1052534678) -> [mirai:image:{D4B1A2FB-56F3-3AE2-331B-F674C2E3CCEE}.jpg, width=988, height=1018, size=37609, type=JPG, isEmoji=true]
+2023-02-03 16:28:19 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@4b9b9d4e
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@4b9b9d4e
+
+2023-02-03 16:28:23 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 获取个人信息 13832418560
+2023-02-03 16:28:24 V/Bot.2545774296: Group(655680846) <- [mirai:quote:[mirai:source:ids=[2917], internalIds=[1365964896], from group 872349679 to 655680846 at 1675412904], content=获取个人信息 13832418560]请输入要查询的QQ号码
+2023-02-03 16:28:49 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@2a203703
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@2a203703
+
+2023-02-03 16:28:53 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> parseFloat(text)
+2023-02-03 16:28:56 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 获取个人信息 13832418560
+2023-02-03 16:28:57 V/Bot.2545774296: Group(655680846) <- [mirai:quote:[mirai:source:ids=[2920], internalIds=[-1717892898], from group 872349679 to 655680846 at 1675412937], content=获取个人信息 13832418560]请输入要查询的QQ号码
+2023-02-03 16:29:25 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@215cc4c8
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@215cc4c8
+
+2023-02-03 16:29:30 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 获取个人信息 13832418560
+2023-02-03 16:29:30 V/Bot.2545774296: Group(655680846) <- [mirai:quote:[mirai:source:ids=[2922], internalIds=[640571339], from group 872349679 to 655680846 at 1675412971], content=获取个人信息 13832418560]暂时获取不到请检查是否输入正确
+2023-02-03 16:29:44 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@53d4ca5c
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@53d4ca5c
+
+2023-02-03 16:29:52 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 获取个人信息 13832418560
+2023-02-03 16:29:53 V/Bot.2545774296: Group(655680846) <- [mirai:quote:[mirai:source:ids=[2924], internalIds=[-2140986826], from group 872349679 to 655680846 at 1675412993], content=获取个人信息 13832418560]暂时获取不到请检查是否输入正确
+2023-02-03 16:30:06 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@6ea634a8
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@6ea634a8
+
+2023-02-03 16:30:17 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 获取个人信息 13832418560
+2023-02-03 16:30:17 V/Bot.2545774296: Group(655680846) <- [mirai:quote:[mirai:source:ids=[2926], internalIds=[-1359048180], from group 872349679 to 655680846 at 1675413017], content=获取个人信息 13832418560]\n                                来自QQ<<NaN>>的个人信息\n                                姓名：\n                                邮箱：\n                                年龄：0\n                                等级：0\n                                性别：MALE\n                            
+2023-02-03 16:31:06 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@5c8ca8c6
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@5c8ca8c6
+
+2023-02-03 16:31:16 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 获取个人信息 13832418560
+2023-02-03 16:31:16 V/Bot.2545774296: Group(655680846) <- [mirai:quote:[mirai:source:ids=[2928], internalIds=[893228422], from group 872349679 to 655680846 at 1675413076], content=获取个人信息 13832418560]\n                                来自QQ<<13832418560>>的个人信息\n                                姓名：\n                                邮箱：\n                                年龄：0\n                                等级：0\n                                性别：MALE\n                            
+2023-02-03 16:32:36 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@2cb97410
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@2cb97410
+
+2023-02-03 16:32:49 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 获取个人信息 13832418560
+2023-02-03 16:32:50 V/Bot.2545774296: Group(655680846) <- [mirai:quote:[mirai:source:ids=[2930], internalIds=[-1566276325], from group 872349679 to 655680846 at 1675413170], content=获取个人信息 13832418560]来自QQ<<13832418560>>的个人信息<br>姓名：<br>邮箱：<br>年龄：0<br>等级：0\n                                性别：MALE\n                            
+2023-02-03 16:33:37 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@155fc570
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@155fc570
+
+2023-02-03 16:33:43 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 获取个人信息 13832418560
+2023-02-03 16:33:44 V/Bot.2545774296: Group(655680846) <- [mirai:quote:[mirai:source:ids=[2932], internalIds=[-8734732], from group 872349679 to 655680846 at 1675413224], content=获取个人信息 13832418560]来自QQ<<13832418560>>的个人信息\n姓名：\n邮箱：\n年龄：0\n等级：0\n性别：MALE\n                            
+2023-02-03 16:33:52 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 这也获取不到啊
+2023-02-03 16:33:55 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 特么的
+2023-02-03 16:34:24 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@6dec8e09
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@6dec8e09
+
+2023-02-03 16:34:55 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 获取个人信息 13832418560
+2023-02-03 16:34:55 V/Bot.2545774296: Group(655680846) <- [mirai:quote:[mirai:source:ids=[2936], internalIds=[-556764897], from group 872349679 to 655680846 at 1675413295], content=获取个人信息 13832418560]来自QQ<<13832418560>>的个人信息\n姓名：\n邮箱：\n年龄：0\n等级：0\n性别：MALE\n                            
+2023-02-03 16:36:53 V/Bot.2545774296: [bot测试群(655680846)] 所念皆星河(1052534678) -> [mirai:image:{9A2C450F-13DA-38E7-3E97-D23DB05FA01B}.jpg, width=129, height=125, size=3365, type=JPG, isEmoji=true]
+2023-02-03 16:37:15 V/Bot.2545774296: [bot测试群(655680846)] 所念皆星河(1052534678) -> 我还没填个人信息么
+2023-02-03 16:37:17 V/Bot.2545774296: [bot测试群(655680846)] 所念皆星河(1052534678) -> 呢
+2023-02-03 16:37:46 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 我服了
+2023-02-03 16:37:49 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 你为啥不填啊
+2023-02-03 16:38:25 V/Bot.2545774296: [bot测试群(655680846)] 所念皆星河(1052534678) -> 在哪填啊
+2023-02-03 16:38:27 V/Bot.2545774296: [bot测试群(655680846)] 所念皆星河(1052534678) -> [mirai:image:{88C95539-0EE8-FC58-6421-1060F94AA765}.gif, width=88, height=88, size=3906, type=GIF, isEmoji=true]
+2023-02-03 16:38:56 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 我也不知道
+2023-02-03 16:39:02 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> [mirai:image:{C3847B0F-AA57-DDB1-5528-ACB79E3DD947}.jpg, width=94, height=94, size=2711, type=JPG, isEmoji=true]
+2023-02-03 16:40:49 V/Bot.2545774296: [bot测试群(655680846)] 所念皆星河(1052534678) -> [mirai:image:{D4B1A2FB-56F3-3AE2-331B-F674C2E3CCEE}.jpg, width=988, height=1018, size=37609, type=JPG, isEmoji=true]
+2023-02-03 16:44:14 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@e51d2d6
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@e51d2d6
+
+2023-02-03 16:44:46 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 设置群昵称 13832418560 大家儿
+2023-02-03 16:44:46 V/Bot.2545774296: Group(655680846) <- [mirai:quote:[mirai:source:ids=[2948], internalIds=[-1075347796], from group 872349679 to 655680846 at 1675413886], content=设置群昵称 13832418560 大家儿]设置失败，请检查是否输入错误！
+2023-02-03 16:45:45 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@ce89403
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@ce89403
+
+2023-02-03 16:45:51 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 设置群昵称 13832418560 大家儿
+2023-02-03 16:45:52 V/Bot.2545774296: Group(655680846) <- [mirai:quote:[mirai:source:ids=[2950], internalIds=[1090950384], from group 872349679 to 655680846 at 1675413952], content=设置群昵称 13832418560 大家儿]设置失败，请检查是否输入错误！
+2023-02-03 16:46:12 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@1a3f0073
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@1a3f0073
+
+2023-02-03 16:46:17 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 设置群昵称 13832418560 大家儿
+2023-02-03 16:46:17 V/Bot.2545774296: Group(655680846) <- [mirai:quote:[mirai:source:ids=[2952], internalIds=[-1989855475], from group 872349679 to 655680846 at 1675413978], content=设置群昵称 13832418560 大家儿]设置失败，请检查是否输入错误！
+2023-02-03 16:48:32 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@7185e287
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@7185e287
+
+2023-02-03 16:48:39 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 设置群昵称 13832418560 大家儿
+2023-02-03 16:48:39 V/Bot.2545774296: Group(655680846) <- [mirai:quote:[mirai:source:ids=[2954], internalIds=[-155260424], from group 872349679 to 655680846 at 1675414119], content=设置群昵称 13832418560 大家儿]设置失败，请检查是否输入错误！
+2023-02-03 16:49:13 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@72119c21
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@72119c21
+
+2023-02-03 16:49:17 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 设置群昵称 13832418560 大家儿
+2023-02-03 16:49:17 V/Bot.2545774296: Group(655680846) <- [mirai:quote:[mirai:source:ids=[2956], internalIds=[-1944740840], from group 872349679 to 655680846 at 1675414157], content=设置群昵称 13832418560 大家儿]设置失败，请检查是否输入错误！
+2023-02-03 16:49:42 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@2cb7612e
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@2cb7612e
+
+2023-02-03 16:49:47 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 设置群昵称 13832418560 大家儿
+2023-02-03 16:49:47 V/Bot.2545774296: Group(655680846) <- [mirai:quote:[mirai:source:ids=[2958], internalIds=[696869178], from group 872349679 to 655680846 at 1675414187], content=设置群昵称 13832418560 大家儿]设置失败，请检查是否输入错误！
+2023-02-03 16:50:10 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@10a182db
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@10a182db
+
+2023-02-03 16:50:17 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 获取个人信息 13832418560
+2023-02-03 16:50:17 V/Bot.2545774296: Group(655680846) <- [mirai:quote:[mirai:source:ids=[2960], internalIds=[635035251], from group 872349679 to 655680846 at 1675414217], content=获取个人信息 13832418560]来自QQ<<13832418560>>的个人信息\n姓名：\n邮箱：\n年龄：0\n等级：0\n性别：MALE\n                            
+2023-02-03 16:51:33 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@29f295be
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@29f295be
+
+2023-02-03 16:51:38 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 设置群昵称 13832418560 大家儿
+2023-02-03 16:51:38 V/Bot.2545774296: Group(655680846) <- [mirai:quote:[mirai:source:ids=[2962], internalIds=[-1881165801], from group 872349679 to 655680846 at 1675414299], content=设置群昵称 13832418560 大家儿]设置失败，请检查是否输入错误！
+2023-02-03 16:52:30 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@69a8e9cc
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@69a8e9cc
+
+2023-02-03 16:52:36 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 设置群昵称 13832418560 大家儿
+2023-02-03 16:52:37 V/Bot.2545774296: Group(655680846) <- [mirai:quote:[mirai:source:ids=[2964], internalIds=[747381935], from group 872349679 to 655680846 at 1675414357], content=设置群昵称 13832418560 大家儿]设置失败，请检查是否输入错误！
+2023-02-03 16:52:54 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@407f7b9a
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@407f7b9a
+
+2023-02-03 16:53:00 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 设置群昵称 13832418560 大家儿
+2023-02-03 16:53:01 V/Bot.2545774296: Group(655680846) <- [mirai:quote:[mirai:source:ids=[2966], internalIds=[-1805550486], from group 872349679 to 655680846 at 1675414381], content=设置群昵称 13832418560 大家儿]设置失败，请检查是否输入错误！
+2023-02-03 16:57:39 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@3a3eba89
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@3a3eba89
+
+2023-02-03 16:58:12 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 设置群公告 能成么
+2023-02-03 16:58:20 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> [mirai:image:{9A2C450F-13DA-38E7-3E97-D23DB05FA01B}.jpg, width=129, height=125, size=3365, type=JPG, isEmoji=true]
+2023-02-03 17:29:47 V/Bot.2545774296: [bot测试群(655680846)] 所念皆星河(1052534678) -> ？？？
+2023-02-03 17:29:49 V/Bot.2545774296: [bot测试群(655680846)] 所念皆星河(1052534678) -> 为啥
+2023-02-03 17:29:55 V/Bot.2545774296: [bot测试群(655680846)] 所念皆星河(1052534678) -> [mirai:quote:[mirai:source:ids=[2966], internalIds=[-1805550486], from 872349679 to 655680846 at 1675414381], content=设置群昵称 13832418560 大家儿][mirai:at:872349679] 
+2023-02-03 17:29:59 V/Bot.2545774296: [bot测试群(655680846)] 所念皆星河(1052534678) -> 这是我手机号啊
+2023-02-03 17:30:05 V/Bot.2545774296: [bot测试群(655680846)] 所念皆星河(1052534678) -> 不是我qq号啊
+2023-02-03 17:30:28 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 你qq号是啥啊
+2023-02-03 17:30:30 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> [mirai:image:{5C7E4951-376B-8B8E-68F9-8FDA8A158684}.jpg, width=543, height=311, size=21285, type=PNG, isEmoji=false]
+2023-02-03 17:31:24 V/Bot.2545774296: [bot测试群(655680846)] 所念皆星河(1052534678) -> 1052534678
+2023-02-03 17:31:26 V/Bot.2545774296: [bot测试群(655680846)] 所念皆星河(1052534678) -> [mirai:image:{9A2C450F-13DA-38E7-3E97-D23DB05FA01B}.jpg, width=129, height=125, size=3365, type=JPG, isEmoji=true]
+2023-02-03 17:32:31 V/Bot.2545774296: [bot测试群(655680846)] 所念皆星河(1052534678) -> [mirai:image:{1E3B60D5-0B30-742F-0967-7848A5EA25BA}.jpg, width=890, height=1920, size=40228, type=JPG, isEmoji=false]
+2023-02-03 17:32:36 V/Bot.2545774296: [bot测试群(655680846)] 所念皆星河(1052534678) -> 我都设置成这样了
+2023-02-03 17:32:43 V/Bot.2545774296: [bot测试群(655680846)] 所念皆星河(1052534678) -> 你咋显示的
+2023-02-03 17:32:59 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 我草你妈
+2023-02-03 17:33:02 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 我说咋回事呢
+2023-02-03 17:33:05 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 我以为不好使了
+2023-02-03 17:33:17 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 设置群昵称 1052534678 大家儿
+2023-02-03 17:33:18 V/Bot.2545774296: Group(655680846) <- [mirai:quote:[mirai:source:ids=[2986], internalIds=[2095840586], from group 872349679 to 655680846 at 1675416798], content=设置群昵称 1052534678 大家儿]设置失败，请检查是否输入错误！
+2023-02-03 17:33:59 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@47774834
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@47774834
+
+2023-02-03 17:34:05 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@1637a7ce
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@1637a7ce
+
+2023-02-03 17:34:09 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 设置群昵称 1052534678 大家儿
+2023-02-03 17:34:10 V/Bot.2545774296: Group(655680846) <- [mirai:quote:[mirai:source:ids=[2988], internalIds=[1905142607], from group 872349679 to 655680846 at 1675416850], content=设置群昵称 1052534678 大家儿]设置失败，请检查是否输入错误！
+2023-02-03 17:34:29 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 草
+2023-02-03 17:34:32 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 这个方法g了
+2023-02-03 17:34:42 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 我用太多直接卡了
+2023-02-03 17:52:35 V/Bot.2545774296: [bot测试群(655680846)] 所念皆星河(1052534678) -> 设置群昵称 872349679 大家儿
+2023-02-03 17:52:36 V/Bot.2545774296: Group(655680846) <- [mirai:quote:[mirai:source:ids=[2993], internalIds=[59328557], from group 1052534678 to 655680846 at 1675417956], content=设置群昵称 872349679 大家儿]设置失败，请检查是否输入错误！
+2023-02-03 17:52:59 V/Bot.2545774296: [bot测试群(655680846)] 所念皆星河(1052534678) -> 获取个人信息 872349679
+2023-02-03 17:53:00 V/Bot.2545774296: Group(655680846) <- [mirai:quote:[mirai:source:ids=[2995], internalIds=[1125765982], from group 1052534678 to 655680846 at 1675417980], content=获取个人信息 872349679]来自QQ<<872349679>>的个人信息\n姓名：浑身难受.\n邮箱：872349679@qq.com\n年龄：63\n等级：96\n性别：MALE\n                            
+2023-02-03 17:53:08 V/Bot.2545774296: [bot测试群(655680846)] 所念皆星河(1052534678) -> 666
+2023-02-03 17:53:18 V/Bot.2545774296: [bot测试群(655680846)] 所念皆星河(1052534678) -> 获取个人信息 1052534678
+2023-02-03 17:53:19 V/Bot.2545774296: Group(655680846) <- [mirai:quote:[mirai:source:ids=[2998], internalIds=[1740280586], from group 1052534678 to 655680846 at 1675417999], content=获取个人信息 1052534678]来自QQ<<1052534678>>的个人信息\n姓名：所念皆星河\n邮箱：\n年龄：50\n等级：93\n性别：MALE\n                            
+2023-02-03 18:10:27 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> [mirai:image:{7DE13079-1D0B-AE48-1A91-4BD2AB4F7265}.jpg, width=51, height=51, size=886, type=JPG, isEmoji=true]
+2023-02-03 18:10:31 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 我还得接着弄
+2023-02-03 18:36:23 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@7393a5c
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@7393a5c
+
+2023-02-03 18:38:44 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@6904b047
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@6904b047
+
+2023-02-03 18:40:25 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@23c83269
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@23c83269
+
+2023-02-03 18:40:56 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 禁言 1052534678 1h
+2023-02-03 18:40:56 E/MAH Access: java.lang.IllegalArgumentException: Failed requirement.
+java.lang.IllegalArgumentException: Failed requirement.
+	at net.mamoe.mirai.internal.network.protocol.packet.chat.TroopManagement$Mute.invoke(TroopManagement.kt:43)
+	at net.mamoe.mirai.internal.contact.NormalMemberImpl.mute(NormalMemberImpl.kt:140)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.internal.action.GroupKt.onMute(group.kt:37)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.GroupKt$groupManageRouter$1$invoke$$inlined$respondStateCodeStrategy$3.invokeSuspend(dsl.kt:198)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.GroupKt$groupManageRouter$1$invoke$$inlined$respondStateCodeStrategy$3.invoke(dsl.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.GroupKt$groupManageRouter$1$invoke$$inlined$respondStateCodeStrategy$3.invoke(dsl.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.GroupKt$groupManageRouter$1$invoke$$inlined$httpAuthedPost$3$1.invokeSuspend(dsl.kt:207)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.GroupKt$groupManageRouter$1$invoke$$inlined$httpAuthedPost$3$1.invoke(dsl.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.GroupKt$groupManageRouter$1$invoke$$inlined$httpAuthedPost$3$1.invoke(dsl.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Route$buildPipeline$1$1.invokeSuspend(Route.kt:116)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Route$buildPipeline$1$1.invoke(Route.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Route$buildPipeline$1$1.invoke(Route.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Routing.executeResult(Routing.kt:174)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Routing.interceptor(Routing.kt:49)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Routing$Plugin$install$1.invokeSuspend(Routing.kt:124)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invokeSuspend(Authorization.kt:41)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invoke(Authorization.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invoke(Authorization.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invokeSuspend(BaseApplicationEngine.kt:122)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler.intercept(HttpRouterAccessHandler.kt:35)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler.access$intercept(HttpRouterAccessHandler.kt:24)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invokeSuspend(HttpRouterAccessHandler.kt:90)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invoke(HttpRouterAccessHandler.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invoke(HttpRouterAccessHandler.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invokeSuspend(DefaultEnginePipeline.kt:118)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2.invokeSuspend(CIOApplicationEngine.kt:189)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2023-02-03 18:41:19 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@63fcdb37
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@63fcdb37
+
+2023-02-03 18:41:24 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 禁言 1052534678 1h
+2023-02-03 18:41:24 E/MAH Access: java.lang.IllegalArgumentException: Failed requirement.
+java.lang.IllegalArgumentException: Failed requirement.
+	at net.mamoe.mirai.internal.network.protocol.packet.chat.TroopManagement$Mute.invoke(TroopManagement.kt:43)
+	at net.mamoe.mirai.internal.contact.NormalMemberImpl.mute(NormalMemberImpl.kt:140)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.internal.action.GroupKt.onMute(group.kt:37)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.GroupKt$groupManageRouter$1$invoke$$inlined$respondStateCodeStrategy$3.invokeSuspend(dsl.kt:198)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.GroupKt$groupManageRouter$1$invoke$$inlined$respondStateCodeStrategy$3.invoke(dsl.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.GroupKt$groupManageRouter$1$invoke$$inlined$respondStateCodeStrategy$3.invoke(dsl.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.GroupKt$groupManageRouter$1$invoke$$inlined$httpAuthedPost$3$1.invokeSuspend(dsl.kt:207)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.GroupKt$groupManageRouter$1$invoke$$inlined$httpAuthedPost$3$1.invoke(dsl.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.GroupKt$groupManageRouter$1$invoke$$inlined$httpAuthedPost$3$1.invoke(dsl.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Route$buildPipeline$1$1.invokeSuspend(Route.kt:116)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Route$buildPipeline$1$1.invoke(Route.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Route$buildPipeline$1$1.invoke(Route.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Routing.executeResult(Routing.kt:174)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Routing.interceptor(Routing.kt:49)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Routing$Plugin$install$1.invokeSuspend(Routing.kt:124)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invokeSuspend(Authorization.kt:41)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invoke(Authorization.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invoke(Authorization.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invokeSuspend(BaseApplicationEngine.kt:122)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler.intercept(HttpRouterAccessHandler.kt:35)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler.access$intercept(HttpRouterAccessHandler.kt:24)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invokeSuspend(HttpRouterAccessHandler.kt:90)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invoke(HttpRouterAccessHandler.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invoke(HttpRouterAccessHandler.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invokeSuspend(DefaultEnginePipeline.kt:118)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2.invokeSuspend(CIOApplicationEngine.kt:189)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2023-02-03 18:41:32 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@7fee8ad0
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@7fee8ad0
+
+2023-02-03 18:41:35 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 禁言 1052534678 1h
+2023-02-03 18:41:35 E/MAH Access: java.lang.IllegalArgumentException: Failed requirement.
+java.lang.IllegalArgumentException: Failed requirement.
+	at net.mamoe.mirai.internal.network.protocol.packet.chat.TroopManagement$Mute.invoke(TroopManagement.kt:43)
+	at net.mamoe.mirai.internal.contact.NormalMemberImpl.mute(NormalMemberImpl.kt:140)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.internal.action.GroupKt.onMute(group.kt:37)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.GroupKt$groupManageRouter$1$invoke$$inlined$respondStateCodeStrategy$3.invokeSuspend(dsl.kt:198)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.GroupKt$groupManageRouter$1$invoke$$inlined$respondStateCodeStrategy$3.invoke(dsl.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.GroupKt$groupManageRouter$1$invoke$$inlined$respondStateCodeStrategy$3.invoke(dsl.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.GroupKt$groupManageRouter$1$invoke$$inlined$httpAuthedPost$3$1.invokeSuspend(dsl.kt:207)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.GroupKt$groupManageRouter$1$invoke$$inlined$httpAuthedPost$3$1.invoke(dsl.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.GroupKt$groupManageRouter$1$invoke$$inlined$httpAuthedPost$3$1.invoke(dsl.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Route$buildPipeline$1$1.invokeSuspend(Route.kt:116)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Route$buildPipeline$1$1.invoke(Route.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Route$buildPipeline$1$1.invoke(Route.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Routing.executeResult(Routing.kt:174)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Routing.interceptor(Routing.kt:49)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Routing$Plugin$install$1.invokeSuspend(Routing.kt:124)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invokeSuspend(Authorization.kt:41)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invoke(Authorization.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invoke(Authorization.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invokeSuspend(BaseApplicationEngine.kt:122)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler.intercept(HttpRouterAccessHandler.kt:35)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler.access$intercept(HttpRouterAccessHandler.kt:24)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invokeSuspend(HttpRouterAccessHandler.kt:90)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invoke(HttpRouterAccessHandler.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invoke(HttpRouterAccessHandler.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invokeSuspend(DefaultEnginePipeline.kt:118)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2.invokeSuspend(CIOApplicationEngine.kt:189)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2023-02-03 18:41:47 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@29305919
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@29305919
+
+2023-02-03 18:41:54 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 禁言 1052534678 1h
+2023-02-03 18:41:54 E/MAH Access: java.lang.IllegalArgumentException: Failed requirement.
+java.lang.IllegalArgumentException: Failed requirement.
+	at net.mamoe.mirai.internal.network.protocol.packet.chat.TroopManagement$Mute.invoke(TroopManagement.kt:43)
+	at net.mamoe.mirai.internal.contact.NormalMemberImpl.mute(NormalMemberImpl.kt:140)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.internal.action.GroupKt.onMute(group.kt:37)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.GroupKt$groupManageRouter$1$invoke$$inlined$respondStateCodeStrategy$3.invokeSuspend(dsl.kt:198)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.GroupKt$groupManageRouter$1$invoke$$inlined$respondStateCodeStrategy$3.invoke(dsl.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.GroupKt$groupManageRouter$1$invoke$$inlined$respondStateCodeStrategy$3.invoke(dsl.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.GroupKt$groupManageRouter$1$invoke$$inlined$httpAuthedPost$3$1.invokeSuspend(dsl.kt:207)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.GroupKt$groupManageRouter$1$invoke$$inlined$httpAuthedPost$3$1.invoke(dsl.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.GroupKt$groupManageRouter$1$invoke$$inlined$httpAuthedPost$3$1.invoke(dsl.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Route$buildPipeline$1$1.invokeSuspend(Route.kt:116)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Route$buildPipeline$1$1.invoke(Route.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Route$buildPipeline$1$1.invoke(Route.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Routing.executeResult(Routing.kt:174)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Routing.interceptor(Routing.kt:49)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Routing$Plugin$install$1.invokeSuspend(Routing.kt:124)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invokeSuspend(Authorization.kt:41)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invoke(Authorization.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invoke(Authorization.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invokeSuspend(BaseApplicationEngine.kt:122)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler.intercept(HttpRouterAccessHandler.kt:35)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler.access$intercept(HttpRouterAccessHandler.kt:24)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invokeSuspend(HttpRouterAccessHandler.kt:90)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invoke(HttpRouterAccessHandler.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invoke(HttpRouterAccessHandler.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invokeSuspend(DefaultEnginePipeline.kt:118)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2.invokeSuspend(CIOApplicationEngine.kt:189)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2023-02-03 18:41:58 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@1792fe96
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@1792fe96
+
+2023-02-03 18:42:02 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 禁言 1052534678 1h
+2023-02-03 18:42:02 E/MAH Access: java.lang.IllegalArgumentException: Failed requirement.
+java.lang.IllegalArgumentException: Failed requirement.
+	at net.mamoe.mirai.internal.network.protocol.packet.chat.TroopManagement$Mute.invoke(TroopManagement.kt:43)
+	at net.mamoe.mirai.internal.contact.NormalMemberImpl.mute(NormalMemberImpl.kt:140)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.internal.action.GroupKt.onMute(group.kt:37)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.GroupKt$groupManageRouter$1$invoke$$inlined$respondStateCodeStrategy$3.invokeSuspend(dsl.kt:198)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.GroupKt$groupManageRouter$1$invoke$$inlined$respondStateCodeStrategy$3.invoke(dsl.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.GroupKt$groupManageRouter$1$invoke$$inlined$respondStateCodeStrategy$3.invoke(dsl.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.GroupKt$groupManageRouter$1$invoke$$inlined$httpAuthedPost$3$1.invokeSuspend(dsl.kt:207)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.GroupKt$groupManageRouter$1$invoke$$inlined$httpAuthedPost$3$1.invoke(dsl.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.GroupKt$groupManageRouter$1$invoke$$inlined$httpAuthedPost$3$1.invoke(dsl.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Route$buildPipeline$1$1.invokeSuspend(Route.kt:116)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Route$buildPipeline$1$1.invoke(Route.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Route$buildPipeline$1$1.invoke(Route.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Routing.executeResult(Routing.kt:174)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Routing.interceptor(Routing.kt:49)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Routing$Plugin$install$1.invokeSuspend(Routing.kt:124)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invokeSuspend(Authorization.kt:41)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invoke(Authorization.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invoke(Authorization.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invokeSuspend(BaseApplicationEngine.kt:122)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler.intercept(HttpRouterAccessHandler.kt:35)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler.access$intercept(HttpRouterAccessHandler.kt:24)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invokeSuspend(HttpRouterAccessHandler.kt:90)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invoke(HttpRouterAccessHandler.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invoke(HttpRouterAccessHandler.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invokeSuspend(DefaultEnginePipeline.kt:118)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2.invokeSuspend(CIOApplicationEngine.kt:189)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2023-02-03 18:42:07 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@1b9e9c66
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@1b9e9c66
+
+2023-02-03 18:42:11 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 禁言 1052534678 1h
+2023-02-03 18:42:11 E/MAH Access: java.lang.IllegalArgumentException: Failed requirement.
+java.lang.IllegalArgumentException: Failed requirement.
+	at net.mamoe.mirai.internal.network.protocol.packet.chat.TroopManagement$Mute.invoke(TroopManagement.kt:43)
+	at net.mamoe.mirai.internal.contact.NormalMemberImpl.mute(NormalMemberImpl.kt:140)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.internal.action.GroupKt.onMute(group.kt:37)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.GroupKt$groupManageRouter$1$invoke$$inlined$respondStateCodeStrategy$3.invokeSuspend(dsl.kt:198)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.GroupKt$groupManageRouter$1$invoke$$inlined$respondStateCodeStrategy$3.invoke(dsl.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.GroupKt$groupManageRouter$1$invoke$$inlined$respondStateCodeStrategy$3.invoke(dsl.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.GroupKt$groupManageRouter$1$invoke$$inlined$httpAuthedPost$3$1.invokeSuspend(dsl.kt:207)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.GroupKt$groupManageRouter$1$invoke$$inlined$httpAuthedPost$3$1.invoke(dsl.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.GroupKt$groupManageRouter$1$invoke$$inlined$httpAuthedPost$3$1.invoke(dsl.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Route$buildPipeline$1$1.invokeSuspend(Route.kt:116)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Route$buildPipeline$1$1.invoke(Route.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Route$buildPipeline$1$1.invoke(Route.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Routing.executeResult(Routing.kt:174)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Routing.interceptor(Routing.kt:49)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Routing$Plugin$install$1.invokeSuspend(Routing.kt:124)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invokeSuspend(Authorization.kt:41)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invoke(Authorization.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invoke(Authorization.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invokeSuspend(BaseApplicationEngine.kt:122)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler.intercept(HttpRouterAccessHandler.kt:35)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler.access$intercept(HttpRouterAccessHandler.kt:24)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invokeSuspend(HttpRouterAccessHandler.kt:90)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invoke(HttpRouterAccessHandler.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invoke(HttpRouterAccessHandler.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invokeSuspend(DefaultEnginePipeline.kt:118)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-v2.7.1-publish1.mirai2.jar[private]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2.invokeSuspend(CIOApplicationEngine.kt:189)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2023-02-03 18:43:00 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@b27c8b0
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@b27c8b0
+
+2023-02-03 18:43:08 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 禁言 1052534678 1h
+2023-02-03 18:43:09 V/Bot.2545774296: Event: MemberMuteEvent(member=NormalMember(873482779), durationSeconds=3600, operator=null)
+2023-02-03 18:43:33 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@54647b5e
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@54647b5e
+
+2023-02-03 18:43:38 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 禁言 1052534678 1h
+2023-02-03 18:43:38 V/Bot.2545774296: Event: MemberMuteEvent(member=NormalMember(873482779), durationSeconds=3600, operator=null)
+2023-02-03 18:44:34 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@6bb737fc
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@6bb737fc
+
+2023-02-03 18:45:03 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@314b535d
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@314b535d
+
+2023-02-03 18:45:17 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 禁言 13832418560 1h
+2023-02-03 18:45:18 V/Bot.2545774296: Group(655680846) <- [mirai:quote:[mirai:source:ids=[3010], internalIds=[301272927], from group 872349679 to 655680846 at 1675421118], content=禁言 13832418560 1h]禁言失败，请检查。
+2023-02-03 18:45:49 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@7941a2e5
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@7941a2e5
+
+2023-02-03 18:46:06 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 禁言 873482779 1h
+2023-02-03 18:46:06 V/Bot.2545774296: Event: MemberMuteEvent(member=NormalMember(873482779), durationSeconds=3600, operator=null)
+2023-02-03 18:46:43 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 禁言 1052534678 1h
+2023-02-03 18:46:43 V/Bot.2545774296: Event: MemberMuteEvent(member=NormalMember(1052534678), durationSeconds=3600, operator=null)
+2023-02-03 18:46:47 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 哈哈哈哈
+2023-02-03 18:46:57 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 解除禁言 1052534678
+2023-02-03 18:46:57 V/Bot.2545774296: Event: MemberUnmuteEvent(member=NormalMember(1052534678), operator=null)
+2023-02-03 18:47:14 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 解除禁言 873482779
+2023-02-03 18:47:14 V/Bot.2545774296: Event: MemberUnmuteEvent(member=NormalMember(873482779), operator=null)
+2023-02-03 18:47:26 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 禁言 873482779 1天
+2023-02-03 18:47:26 V/Bot.2545774296: Event: MemberMuteEvent(member=NormalMember(873482779), durationSeconds=86400, operator=null)
+2023-02-03 18:48:43 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 设置群昵称 13832418560 大家儿
+2023-02-03 18:48:43 V/Bot.2545774296: Group(655680846) <- [mirai:quote:[mirai:source:ids=[3018], internalIds=[2029912206], from group 872349679 to 655680846 at 1675421323], content=设置群昵称 13832418560 大家儿]设置失败，请检查是否输入错误！
+2023-02-03 18:49:10 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 设置群昵称 1052534678 大家儿
+2023-02-03 18:49:11 V/Bot.2545774296: Group(655680846) <- [mirai:quote:[mirai:source:ids=[3020], internalIds=[639126559], from group 872349679 to 655680846 at 1675421351], content=设置群昵称 1052534678 大家儿]设置失败，请检查是否输入错误！
+2023-02-03 18:49:36 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@7516e1a0
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@7516e1a0
+
+2023-02-03 18:49:41 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 设置群昵称 1052534678 大家儿
+2023-02-03 18:49:41 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@2d208aa3
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@2d208aa3
+
+2023-02-03 18:50:51 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 设置群昵称 873482779 大家儿
+2023-02-03 18:50:58 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@6448a477
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@6448a477
+
+2023-02-03 18:51:03 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 设置群昵称 873482779 大家儿
+2023-02-03 18:51:04 V/Bot.2545774296: Group(655680846) <- [mirai:quote:[mirai:source:ids=[3024], internalIds=[-1569838682], from group 872349679 to 655680846 at 1675421464], content=设置群昵称 873482779 大家儿]设置失败，请检查是否输入错误！
+2023-02-03 18:51:54 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@201d4146
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@201d4146
+
+2023-02-03 18:52:06 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 设置群昵称 873482779 大家儿
+2023-02-03 18:52:06 V/Bot.2545774296: Event: MemberCardChangeEvent(origin=, new=大家儿, member=NormalMember(873482779))
+2023-02-03 18:52:06 V/Bot.2545774296: Group(655680846) <- [mirai:quote:[mirai:source:ids=[3026], internalIds=[888625881], from group 872349679 to 655680846 at 1675421527], content=设置群昵称 873482779 大家儿]设置成功
+2023-02-03 18:52:24 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> 解除禁言 873482779
+2023-02-03 18:52:24 V/Bot.2545774296: Event: MemberUnmuteEvent(member=NormalMember(873482779), operator=null)
+2023-02-03 18:52:33 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@4b868026
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@4b868026
+
+2023-02-03 18:52:40 V/Bot.2545774296: Event: BotOfflineEvent.Active(bot=Bot(2545774296), cause=null, reconnect=false)
+2023-02-03 18:52:40 I/Bot.2545774296: Bot is closed manually
+2023-02-03 18:52:40 I/Bot.2545774296: Bot cancelled: Job was cancelled

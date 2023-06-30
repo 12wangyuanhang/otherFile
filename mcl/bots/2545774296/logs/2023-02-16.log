@@ -1,0 +1,261 @@
+[0m2023-02-16 16:23:46 V/Net 2545774296: Loading server list from cache.[0m
+[0m2023-02-16 16:23:46 V/Net 2545774296: Server list: 157.148.54.141:80, 112.80.130.224:80, 116.130.229.191:14000, 116.130.230.31:80, 157.148.54.17:80, 125.39.196.167:443, msfwifi.3g.qq.com:8080, 153.3.50.17:14000, 125.39.196.204:8080, 112.80.130.236:443.[0m
+[92m2023-02-16 16:23:46 I/Net 2545774296: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-02-16 16:23:46 I/Net 2545774296: Successfully fetched ecdh public key from server.[0m
+[0m2023-02-16 16:23:46 V/Net 2545774296: Send: wtlogin.exchange_emp(10:fast-login)[0m
+[0m2023-02-16 16:23:46 V/Net 2545774296: Recv: wtlogin.exchange_emp[0m
+[0m2023-02-16 16:23:46 V/Net 2545774296: Send: StatSvc.register(online)[0m
+[92m2023-02-16 16:23:46 I/Net 2545774296: Server time updated, serverTime: 1676535825, diff: -1ms=-0.001s[0m
+[0m2023-02-16 16:23:46 V/Net 2545774296: Recv: StatSvc.register[0m
+[0m2023-02-16 16:23:46 V/Net 2545774296: Loading BdhSession from cache file[0m
+[92m2023-02-16 16:23:46 I/Net 2545774296: Syncing friend message history...[0m
+[92m2023-02-16 16:23:46 I/Net 2545774296: Start loading friend list...[0m
+[92m2023-02-16 16:23:46 I/Net 2545774296: Start loading stranger list...[0m
+[92m2023-02-16 16:23:46 I/Net 2545774296: Start loading friendGroup list...[0m
+[0m2023-02-16 16:23:46 V/Net 2545774296: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2023-02-16 16:23:46 V/Net 2545774296: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[0m2023-02-16 16:23:46 V/Net 2545774296: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2023-02-16 16:23:46 V/Net 2545774296: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2023-02-16 16:23:46 V/Net 2545774296: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[92m2023-02-16 16:23:46 I/Net 2545774296: Start loading group list...[0m
+[0m2023-02-16 16:23:46 V/Net 2545774296: Recv: OidbSvc.0x496[0m
+[0m2023-02-16 16:23:46 V/Net 2545774296: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[92m2023-02-16 16:23:46 I/Net 2545774296: Syncing friend message history: Success.[0m
+[0m2023-02-16 16:23:46 V/Net 2545774296: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2023-02-16 16:23:46 I/Net 2545774296: No OtherClient online.[0m
+[0m2023-02-16 16:23:46 V/Net 2545774296: Recv: OidbSvc.0x5d2_0[0m
+[92m2023-02-16 16:23:46 I/Net 2545774296: Successfully loaded stranger list: 5 in total[0m
+[0m2023-02-16 16:23:46 V/Net 2545774296: Recv: friendlist.getFriendGroupList[0m
+[0m2023-02-16 16:23:46 V/Net 2545774296: Loading friendGroup list: 9/9[0m
+[92m2023-02-16 16:23:46 I/Net 2545774296: Successfully loaded friendGroup list: 9 in total[0m
+[0m2023-02-16 16:23:46 V/Net 2545774296: Recv: friendlist.getFriendGroupList[0m
+[0m2023-02-16 16:23:46 V/Net 2545774296: Loading friend list: 23/23[0m
+[92m2023-02-16 16:23:46 I/Net 2545774296: Successfully loaded friend list: 23 in total[0m
+[0m2023-02-16 16:23:46 V/Net 2545774296: Recv: friendlist.GetTroopListReqV2[0m
+[0m2023-02-16 16:23:46 V/Net 2545774296: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-16 16:23:46 V/Net 2545774296: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-16 16:23:46 V/Net 2545774296: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-16 16:23:46 V/Net 2545774296: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-16 16:23:46 V/Net 2545774296: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-16 16:23:46 V/Net 2545774296: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-16 16:23:46 V/Net 2545774296: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-16 16:23:46 V/Net 2545774296: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-16 16:23:46 V/Net 2545774296: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2023-02-16 16:23:47 I/Net 2545774296: Successfully loaded group list: 5 in total.[0m
+[0m2023-02-16 16:23:47 V/Net 2545774296: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2023-02-16 16:23:47 I/Net 2545774296: Scheduled key refresh in 23h 55min 0.0s.[0m
+[92m2023-02-16 16:23:47 I/Net 2545774296: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[0m2023-02-16 16:23:49 V/Net 2545774296: Server list: 157.148.54.249:80, 60.29.240.63:80, 60.28.172.48:443, 125.39.196.236:8080, 59.83.207.217:80, msfwifi.3g.qq.com:8080, 112.80.130.241:14000, 163.177.30.25:80, 116.130.229.12:443, 116.147.18.148:443.[0m
+[0m2023-02-16 16:23:49 V/Net 2545774296: Saving bdh session to cache[0m
+[0m2023-02-16 16:23:49 V/Net 2545774296: Saving server list to cache[0m
+[0m2023-02-16 16:23:49 V/Net 2545774296: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2023-02-16 16:23:49 V/Net 2545774296: Recv: ConfigPushSvc.PushReq[0m
+[0m2023-02-16 16:23:49 V/Net 2545774296: Saving bdh session to cache[0m
+[0m2023-02-16 16:23:49 V/Net 2545774296: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2023-02-16 16:23:49 V/Net 2545774296: Recv: ConfigPushSvc.PushReq[0m
+[0m2023-02-16 16:26:16 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 16:26:16 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 16:26:51 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 16:26:51 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 16:42:51 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 16:42:51 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 16:46:19 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 16:46:19 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 16:48:24 V/Net 2545774296: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-02-16 16:48:25 V/Net 2545774296: Recv: ImgStore.GroupPicUp[0m
+[0m2023-02-16 16:48:25 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 16:48:25 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 16:54:49 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 16:54:49 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 17:00:48 V/Net 2545774296: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-02-16 17:00:48 V/Net 2545774296: Recv: ImgStore.GroupPicUp[0m
+[0m2023-02-16 17:00:48 V/Net 2545774296: [Highway] Uploading group image to 220.194.118.221:80, size=80.32 KiB[0m
+[0m2023-02-16 17:00:51 V/Net 2545774296: [Highway] Uploading group image: succeed at 26 KiB/s[0m
+[0m2023-02-16 17:00:51 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 17:00:52 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 17:00:58 V/Net 2545774296: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-02-16 17:00:58 V/Net 2545774296: Recv: ImgStore.GroupPicUp[0m
+[0m2023-02-16 17:00:58 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 17:00:59 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 17:13:04 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 17:13:05 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 17:26:50 V/Net 2545774296: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-02-16 17:26:50 V/Net 2545774296: Recv: ImgStore.GroupPicUp[0m
+[0m2023-02-16 17:26:50 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 17:26:51 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 17:27:07 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 17:27:07 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 17:27:22 V/Net 2545774296: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-02-16 17:27:22 V/Net 2545774296: Recv: ImgStore.GroupPicUp[0m
+[0m2023-02-16 17:27:22 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 17:27:23 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 17:31:00 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 17:31:01 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 17:31:50 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 17:31:50 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 17:32:00 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 17:32:00 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 17:36:31 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 17:36:31 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 17:36:54 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 17:36:54 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 17:42:56 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 17:42:56 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 17:43:02 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 17:43:02 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 17:43:07 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 17:43:08 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 17:44:02 V/Net 2545774296: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-02-16 17:44:02 V/Net 2545774296: Recv: ImgStore.GroupPicUp[0m
+[0m2023-02-16 17:44:02 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 17:44:03 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 17:45:08 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 17:45:09 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 17:45:18 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 17:45:19 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 17:45:20 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 17:45:21 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 17:45:22 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 17:45:22 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 17:45:24 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 17:45:24 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 17:45:49 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 17:45:49 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 17:45:51 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 17:45:52 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 17:45:56 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 17:45:56 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 17:46:08 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 17:46:09 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 17:46:25 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 17:46:26 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 17:47:01 V/Net 2545774296: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-02-16 17:47:01 V/Net 2545774296: Recv: ImgStore.GroupPicUp[0m
+[0m2023-02-16 17:47:01 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 17:47:02 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 17:48:35 V/Net 2545774296: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-02-16 17:48:36 V/Net 2545774296: Recv: ImgStore.GroupPicUp[0m
+[0m2023-02-16 17:48:36 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 17:48:37 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 17:48:49 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 17:48:49 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 17:50:14 V/Net 2545774296: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-02-16 17:50:14 V/Net 2545774296: Recv: ImgStore.GroupPicUp[0m
+[0m2023-02-16 17:50:14 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 17:50:15 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 17:51:52 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 17:51:52 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 17:52:37 V/Net 2545774296: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-02-16 17:52:37 V/Net 2545774296: Recv: ImgStore.GroupPicUp[0m
+[0m2023-02-16 17:52:37 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 17:52:38 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 18:04:15 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 18:04:15 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 18:04:18 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 18:04:18 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 18:04:20 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 18:04:21 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 18:21:21 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 18:21:21 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 18:24:24 V/Net 2545774296: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-02-16 18:24:24 V/Net 2545774296: Recv: ImgStore.GroupPicUp[0m
+[0m2023-02-16 18:24:24 V/Net 2545774296: [Highway] Uploading group image to 220.194.118.221:80, size=572.79 KiB[0m
+[0m2023-02-16 18:24:31 V/Net 2545774296: [Highway] Uploading group image: succeed at 88 KiB/s[0m
+[0m2023-02-16 18:24:31 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 18:24:31 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 18:24:42 V/Net 2545774296: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-02-16 18:24:42 V/Net 2545774296: [Highway] Uploading group image to 220.194.118.221:80, size=1103.36 KiB[0m
+[0m2023-02-16 18:24:42 V/Net 2545774296: Recv: ImgStore.GroupPicUp[0m
+[0m2023-02-16 18:24:43 V/Net 2545774296: [Highway] Uploading group image: succeed at 1479 KiB/s[0m
+[0m2023-02-16 18:24:43 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 18:24:44 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 18:24:56 V/Net 2545774296: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-02-16 18:24:56 V/Net 2545774296: Recv: ImgStore.GroupPicUp[0m
+[0m2023-02-16 18:24:56 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 18:24:57 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 18:25:07 V/Net 2545774296: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-02-16 18:25:07 V/Net 2545774296: Recv: ImgStore.GroupPicUp[0m
+[0m2023-02-16 18:25:07 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 18:25:08 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 18:25:40 V/Net 2545774296: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-02-16 18:25:40 V/Net 2545774296: Recv: ImgStore.GroupPicUp[0m
+[0m2023-02-16 18:25:40 V/Net 2545774296: [Highway] Uploading group image to 220.194.118.221:80, size=502.01 KiB[0m
+[0m2023-02-16 18:25:41 V/Net 2545774296: [Highway] Uploading group image: succeed at 791 KiB/s[0m
+[0m2023-02-16 18:25:41 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 18:25:41 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 18:33:31 V/Net 2545774296: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-02-16 18:33:31 V/Net 2545774296: Recv: ImgStore.GroupPicUp[0m
+[0m2023-02-16 18:33:31 V/Net 2545774296: [Highway] Uploading group image to 220.194.118.221:80, size=54.18 KiB[0m
+[0m2023-02-16 18:33:34 V/Net 2545774296: [Highway] Uploading group image: succeed at 18 KiB/s[0m
+[0m2023-02-16 18:33:34 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 18:33:35 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 18:33:52 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 18:33:52 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 18:34:05 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 18:34:06 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 18:34:08 V/Net 2545774296: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-02-16 18:34:08 V/Net 2545774296: Recv: ImgStore.GroupPicUp[0m
+[0m2023-02-16 18:34:08 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 18:34:09 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 18:34:18 V/Net 2545774296: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-02-16 18:34:18 V/Net 2545774296: Recv: ImgStore.GroupPicUp[0m
+[0m2023-02-16 18:34:18 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 18:34:19 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 18:34:23 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 18:34:23 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 18:38:49 V/Net 2545774296: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-02-16 18:38:49 V/Net 2545774296: Recv: ImgStore.GroupPicUp[0m
+[0m2023-02-16 18:38:49 V/Net 2545774296: [Highway] Uploading group image to 220.194.118.221:80, size=26.34 KiB[0m
+[0m2023-02-16 18:38:50 V/Net 2545774296: [Highway] Uploading group image: succeed at 105 KiB/s[0m
+[0m2023-02-16 18:38:50 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 18:38:50 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 19:25:45 V/Net 2545774296: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-02-16 19:25:45 V/Net 2545774296: Recv: ImgStore.GroupPicUp[0m
+[0m2023-02-16 19:25:45 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 19:25:45 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 19:26:11 V/Net 2545774296: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-02-16 19:26:11 V/Net 2545774296: Recv: ImgStore.GroupPicUp[0m
+[0m2023-02-16 19:26:11 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 19:26:12 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 19:26:21 V/Net 2545774296: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-02-16 19:26:21 V/Net 2545774296: Recv: ImgStore.GroupPicUp[0m
+[0m2023-02-16 19:26:21 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 19:26:22 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 19:51:34 V/Net 2545774296: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-02-16 19:51:34 V/Net 2545774296: Recv: ImgStore.GroupPicUp[0m
+[0m2023-02-16 19:51:34 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 19:51:35 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 19:51:47 V/Net 2545774296: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-02-16 19:51:47 V/Net 2545774296: Recv: ImgStore.GroupPicUp[0m
+[0m2023-02-16 19:51:47 V/Net 2545774296: [Highway] Uploading group image to 220.194.118.221:80, size=78.74 KiB[0m
+[0m2023-02-16 19:51:50 V/Net 2545774296: [Highway] Uploading group image: succeed at 26 KiB/s[0m
+[0m2023-02-16 19:51:50 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 19:51:51 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 19:51:59 V/Net 2545774296: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-02-16 19:51:59 V/Net 2545774296: Recv: ImgStore.GroupPicUp[0m
+[0m2023-02-16 19:51:59 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 19:52:00 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 19:52:30 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 19:52:30 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 21:57:15 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 21:57:16 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 22:02:48 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 22:02:49 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 22:37:58 V/Net 2545774296: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-02-16 22:37:59 V/Net 2545774296: Recv: ImgStore.GroupPicUp[0m
+[0m2023-02-16 22:37:59 V/Net 2545774296: [Highway] Uploading group image to 220.194.118.221:80, size=56.8 KiB[0m
+[0m2023-02-16 22:38:02 V/Net 2545774296: [Highway] Uploading group image: succeed at 15 KiB/s[0m
+[0m2023-02-16 22:38:02 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 22:38:03 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 22:38:18 V/Net 2545774296: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-02-16 22:38:18 V/Net 2545774296: Recv: ImgStore.GroupPicUp[0m
+[0m2023-02-16 22:38:18 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 22:38:19 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 22:38:27 V/Net 2545774296: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-02-16 22:38:27 V/Net 2545774296: Recv: ImgStore.GroupPicUp[0m
+[0m2023-02-16 22:38:27 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 22:38:28 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-02-16 22:38:39 V/Net 2545774296: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-02-16 22:38:40 V/Net 2545774296: Recv: ImgStore.GroupPicUp[0m
+[0m2023-02-16 22:38:40 V/Net 2545774296: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-02-16 22:38:40 V/Net 2545774296: Recv: MessageSvc.PbSendMsg[0m

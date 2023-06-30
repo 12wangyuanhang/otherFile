@@ -1,0 +1,23 @@
+2023-02-07 03:32:29 V/Bot.2545774296: Event: NudgeEvent(from=NormalMember(1052534678), target=Bot(2545774296), subject=Group(655680846), action=戳了戳, suffix=)
+2023-02-07 09:47:05 V/Bot.2545774296: [bot测试群(655680846)] 夜⃰声⃰(3041047629) -> [mirai:at:2545774296] 带颜色的图
+2023-02-07 09:47:36 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@3569e7e2
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@3569e7e2
+
+2023-02-07 09:53:30 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> [mirai:at:2545774296] 涩图
+2023-02-07 09:53:36 V/Bot.2545774296: Group(655680846) <- [mirai:image:{CF04DAC5-AAC1-A269-2267-A4A723CB30B3}.png, width=1000, height=1482, size=1732658, type=PNG, isEmoji=false]
+2023-02-07 09:54:19 V/Bot.2545774296: [bot测试群(655680846)] 夜⃰声⃰(3041047629) -> [mirai:at:2545774296]
+2023-02-07 09:54:19 V/Bot.2545774296: Group(655680846) <- 你觉得，你能杀死我？！！！
+2023-02-07 11:07:10 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> [mirai:at:2545774296]
+2023-02-07 11:07:10 V/Bot.2545774296: Group(655680846) <- _(:3」∠❀)_菊花碎了一地
+2023-02-07 11:07:18 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> [mirai:at:2545774296] 涩图
+2023-02-07 11:07:29 V/Bot.2545774296: Group(655680846) <- [mirai:image:{63D90805-CF24-5B7D-FF1E-9FE2AB16FC3B}.png, width=4441, height=6213, size=9916916, type=PNG, isEmoji=false]
+2023-02-07 11:07:47 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> [mirai:at:2545774296]
+2023-02-07 11:07:47 V/Bot.2545774296: Group(655680846) <- 哈哈哈哈哈哈啊？
+2023-02-07 11:07:55 V/Bot.2545774296: [bot测试群(655680846)] 浑身难受.(872349679) -> [mirai:at:2545774296] 发一张涩图啊妈的
+2023-02-07 11:08:01 V/Bot.2545774296: Group(655680846) <- [mirai:image:{A760545D-F364-CAB8-B1EB-EBBD147BDA50}.jpg, width=2026, height=2865, size=4195122, type=JPG, isEmoji=false]
+2023-02-07 14:28:51 E/MAH Access: kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@41e0e92
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@41e0e92
+
+2023-02-07 14:28:55 V/Bot.2545774296: Event: BotOfflineEvent.Active(bot=Bot(2545774296), cause=null, reconnect=false)
+2023-02-07 14:28:55 I/Bot.2545774296: Bot is closed manually
+2023-02-07 14:28:55 I/Bot.2545774296: Bot cancelled: Job was cancelled

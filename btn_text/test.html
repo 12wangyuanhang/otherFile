@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    function lzcbind1(thisarg, thiss, ...oldarg) {
+        thisarg = !!thisarg ? thisarg : { thisarg }
+        Object.defineProperty(thisarg, 'fn', {
+            value: thiss,
+        })
+        return (...newarg) => {
+            let allarg = [...oldarg, ...newarg]
+            thisarg.fn(...allarg)
+        }
+    }
+
+    Function.prototype.lzcbind = function(thisarg, ...arg){
+        // lzcbind1(thisarg, this, ...arg)
+        return lzcbind1(thisarg, this, ...arg)
+    }
+
+
+    function foo(name, age){
+        console.log(this.name, name, age)
+    }
+
+    let fo = foo.lzcbind('lzc', [18, 19]);
+    fo()
+</script>
+</html>

@@ -1,0 +1,277 @@
+[0m2023-02-03 15:37:06 V/Net 872349679: No server list cached.[0m
+[92m2023-02-03 15:37:06 I/Net 872349679: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-02-03 15:37:06 I/Net 872349679: Successfully fetched ecdh public key from server.[0m
+[0m2023-02-03 15:37:06 V/Net 872349679: Send: wtlogin.login(9:password-login)[0m
+[0m2023-02-03 15:37:06 V/Net 872349679: Recv: wtlogin.login[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: StatSvc.register(online)[0m
+[92m2023-02-03 15:37:07 I/Net 872349679: Server time updated, serverTime: 1675409827, diff: 0ms=0.0s[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Recv: StatSvc.register[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: No BdhSession cache[0m
+[92m2023-02-03 15:37:07 I/Net 872349679: Syncing friend message history...[0m
+[92m2023-02-03 15:37:07 I/Net 872349679: Start loading friend list...[0m
+[92m2023-02-03 15:37:07 I/Net 872349679: Start loading stranger list...[0m
+[92m2023-02-03 15:37:07 I/Net 872349679: Start loading friendGroup list...[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Recv: OidbSvc.0x5d2_0[0m
+[92m2023-02-03 15:37:07 I/Net 872349679: Successfully loaded stranger list: 0 in total[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Recv: OidbSvc.0x496[0m
+[92m2023-02-03 15:37:07 I/Net 872349679: Start loading group list...[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2023-02-03 15:37:07 I/Net 872349679: Online OtherClients: ISS(WINDOWS)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Recv: friendlist.getFriendGroupList[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Loading friend list: 150/698[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Recv: friendlist.getFriendGroupList[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Loading friend list: 300/698[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Recv: friendlist.GetTroopListReqV2[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Recv: friendlist.getFriendGroupList[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Loading friend list: 450/698[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Recv: friendlist.getFriendGroupList[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Loading friend list: 600/698[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Recv: friendlist.getFriendGroupList[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Loading friend list: 698/698[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[92m2023-02-03 15:37:07 I/Net 872349679: Successfully loaded friend list: 698 in total[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:07 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:08 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:09 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:09 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:09 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:09 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:09 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:09 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:09 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:09 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:09 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:09 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:09 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:09 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:09 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:09 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:09 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:09 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:09 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:09 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:09 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:09 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-02-03 15:37:09 V/Net 872349679: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-02-03 15:37:10 V/Net 872349679: Saving bdh session to cache[0m
+[0m2023-02-03 15:37:10 V/Net 872349679: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2023-02-03 15:37:10 V/Net 872349679: Recv: ConfigPushSvc.PushReq[0m
+[0m2023-02-03 15:37:10 V/Net 872349679: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2023-02-03 15:37:10 I/Net 872349679: Successfully loaded group list: 53 in total.[0m
+[92m2023-02-03 15:37:10 I/Net 872349679: Syncing friend message history: Success.[0m
+[0m2023-02-03 15:37:12 V/Net 872349679: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[91m2023-02-03 15:37:17 W/Net 872349679: An exception was thrown during 'loading friendGroups' of Bot 872349679. Trying to ignore the error and continue logging in...
+kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms
+	at kotlinx.coroutines.TimeoutKt.TimeoutCancellationException(Timeout.kt:184)
+	at kotlinx.coroutines.TimeoutCoroutine.run(Timeout.kt:154)
+	at kotlinx.coroutines.EventLoopImplBase$DelayedRunnableTask.run(EventLoop.common.kt:508)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:284)
+	at kotlinx.coroutines.DefaultExecutor.run(DefaultExecutor.kt:108)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[0m
+[92m2023-02-03 15:37:17 I/Net 872349679: Scheduled key refresh in 23h 55min 0.0s.[0m
+[92m2023-02-03 15:37:17 I/Net 872349679: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[0m2023-02-03 15:37:30 V/Net 872349679: Send: StatSvc.register(offline)[0m
